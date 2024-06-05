@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Strike&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  transition: .3s;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  }
+  
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(175, 175, 222);
+
+}
+
+.container{
+
+background:linear-gradient(90deg, rgb(83, 83, 136), rgb(92, 92, 203));
+box-shadow: 2px 2px 10px gray;
+width: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+height: max-content;
+padding-bottom:20px ;
+}
+.WeatherImg{
+  width:100px; 
+ 
+}
+input[type='search']{
+  box-shadow: 2px 2px 10px gray;
+}
+button i:hover{
+  
+  transform: scale(1.2);
+}
+input:focus input{
+ outline:none;
+ border: none;
+  
+}
+.search{
+  position: relative;
+}
+button{
+  position: absolute;
+  top: -2px;
+  right: 0;
+ 
+}
+.fot{
+  font-family: cursive;
+  text-transform: capitalize;
+}
